@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../images/logo.jpg'
 
-const Header = () => {
+function Header() {
   return (
       <div>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
@@ -13,7 +13,7 @@ const Header = () => {
             </nav>
         </div>
     </div>
-  )
+  );
 }
 
 export default Header
