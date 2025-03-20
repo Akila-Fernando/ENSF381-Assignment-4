@@ -6,10 +6,10 @@ const Header = () => {
       <div>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
             <img src={logo} alt="LMS Logo" style={{width: '100px', height: '100px'}}></img>
-            <nav>
-                <a href="login.html">Login</a> 
-                <a href="leaderboard.html">Leaderboard</a> 
-                <a href="#about">About LMS</a>
+            <nav style={{ display: 'flex', gap: '20px', marginRight: '20px'}}>
+                <a href="/">Home</a> 
+                <a href="/Courses">Courses</a> 
+                <a href="/Login">Login</a>
             </nav>
         </div>
     </div>
