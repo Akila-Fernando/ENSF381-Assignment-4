@@ -70,9 +70,10 @@ function LoginForm() {
         <div style={{display: 'flex', justifyContent: 'center'}}>
             <button type="submit" onClick={validateLogin} style={{backgroundColor: '#008000', color: 'white', padding: '10px 15px', border: 'none', cursor: 'pointer', fontSize: '16px', borderRadius: '5px'}}>Login</button>
         </div>
-        <br></br><br></br>
+        <br></br>
+        <div id="messageBox" className="message-box" style={{width: '100%', padding: '10px', textAlign: 'center', fontSize: '20px'}}></div>
+        <br></br>
         <a href="#">Forgot Password?</a>
-        <div id="messageBox" className="message-box"></div>
     </div>
   );
 }
