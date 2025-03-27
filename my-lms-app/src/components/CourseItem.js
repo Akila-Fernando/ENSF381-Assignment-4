@@ -13,7 +13,6 @@ function CourseItem({course}) {
             <div style={{marginBottom: '10px'}}>{course.duration}</div>
 
             {showDescription && <p className="description">{course.description}</p>}
-            
             <button onClick={() => enrollCourse(course)}>Enroll Now</button>
         </div>
     );
