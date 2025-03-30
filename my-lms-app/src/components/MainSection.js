@@ -40,8 +40,8 @@ function MainSection() {
                 <h6>{testimonial.courseName}</h6>
                 <p>{testimonial.review}</p>
                 <p>
-                {'★'.repeat(testimonial.rating)}{'☆'.repeat(5 - testimonial.rating)}
-                </p>
+                {'★'.repeat(testimonial.rating)}{'☆'.repeat(5 - testimonial.rating)}`
+                </p>`
             </div>
             ))}
         </div>

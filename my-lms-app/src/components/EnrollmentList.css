@@ -1,0 +1,16 @@
+.enrollment-list {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+.enrolled-course {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+.enrolled-course:last-child {
+    border-bottom: none;
+  }
