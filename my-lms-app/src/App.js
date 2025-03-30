@@ -1,7 +1,9 @@
 import './App.css';
+//import React from 'react';
+//import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
-import CoursePage from './pages/CoursesPage';
+import CoursesPage from './pages/CoursesPage';
 import LoginPage from './pages/LoginPage';
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path='/Courses' element={<CoursePage />} />
+        <Route path='/Courses' element={<CoursesPage />} />
         <Route path='/Login' element={<LoginPage />} />
       </Routes>
       </BrowserRouter>
