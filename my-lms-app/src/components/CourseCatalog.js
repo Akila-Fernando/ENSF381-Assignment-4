@@ -3,7 +3,7 @@ import CourseItem from "./CourseItem";
 import courses from "../data/courses";
 import "./CourseCatalog.css";
 
-const CourseCatalog = ({ enrollCourse }) => {
+const CourseCatalog = ({ enroll }) => {
   return (
     <div class name="course-catalog">
       <h2>Courses</h2>
@@ -11,7 +11,7 @@ const CourseCatalog = ({ enrollCourse }) => {
       {courses.map(course => (
         <CourseItem key={course.id} 
         course={course} 
-        enrollCourse={enrollCourse} />
+        enroll={enroll} />
       ))}
       </div>
     </div>
