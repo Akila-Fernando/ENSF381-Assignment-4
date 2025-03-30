@@ -1,6 +1,4 @@
 import './App.css';
-//import React from 'react';
-//import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import CoursesPage from './pages/CoursesPage';
