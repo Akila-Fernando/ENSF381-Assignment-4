@@ -15,7 +15,7 @@ const testimonials = [
     studentName: "Charlie Brown",
     courseName: "Software Testing",
     review: "Learned a lot about testing methodologies and tools.",
-    rating: 4
+    rating: 3
     },
     {
     studentName: "Diana White",

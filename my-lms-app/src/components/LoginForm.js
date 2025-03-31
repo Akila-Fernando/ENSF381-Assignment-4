@@ -50,7 +50,7 @@ function LoginForm() {
         
   return (
     <AuthContext.Provider value={authMessage}>
-    <div style={{display: 'flex', flexDirection: 'column', textAlign: 'center'}}>
+    <div style={{display: 'flex', flexDirection: 'column', textAlign: 'center', marginTop: '30px'}}>
         <form id="loginblock" method="POST" 
         style={{display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#d4d4d4', boxShadow: '10px 10px 15px rgba(0, 0, 0, 0.1)', borderRadius: '30px', padding: '30px', margin: '0px 150px 0px 150px'}}>
             <label>Username:</label>
@@ -61,7 +61,10 @@ function LoginForm() {
         </form>
         <br></br>
         <div style={{display: 'flex', justifyContent: 'center'}}>
-            <button type="submit" onClick={validateLogin} style={{backgroundColor: '#008000', color: 'white', padding: '10px 15px', border: 'none', cursor: 'pointer', fontSize: '16px', borderRadius: '5px'}}>Login</button>
+            <button type="submit" onClick={validateLogin} style={{backgroundColor: '#008000', color: 'white', padding: '10px 15px', border: 'none', cursor: 'pointer', fontSize: '16px', borderRadius: '5px'}}
+            onMouseOver={(e) => e.target.style.backgroundColor = '#006600'}
+            onMouseOut={(e) => e.target.style.backgroundColor = '#008000'}
+            >Login</button>
         </div>
         <br></br>
         <AuthMessage />
